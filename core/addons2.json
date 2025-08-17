@@ -1,0 +1,8 @@
+[
+	"/addons/spin-cube.js",
+	"/addons/grid.js",
+	"/addons/orbit-controls.js",
+	"/addons/keys/input-keys.js",
+	"/addons/spawn-sphere-on-space.js",
+	"/addons/debug-event-logger.js"
+]
