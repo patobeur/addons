@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+		<title>Three Core + Addons</title>
+		<style>
+			html,
+			body,
+			#app {
+				height: 100%;
+				margin: 0;
+			}
+			canvas {
+				display: block;
+			}
+		</style>
+		<!-- Import maps pour des imports ESM propres sans bundler -->
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "https://unpkg.com/three@0.164.1/build/three.module.js",
+					"three/addons/": "https://unpkg.com/three@0.164.1/examples/jsm/"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="app"></canvas>
+		<script type="module" src="/addons/core/main.js"></script>
+	</body>
+</html>
