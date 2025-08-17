@@ -1,8 +1,8 @@
 [
-	"/addons/spin-cube.js",
-	"/addons/grid.js",
-	"/addons/orbit-controls.js",
-	"/addons/keys/input-keys.js",
-	"/addons/spawn-sphere-on-space.js",
-	"/addons/debug-event-logger.js"
+	"/addons/addons/spin-cube.js",
+	"/addons/addons/grid.js",
+	"/addons/addons/orbit-controls.js",
+	"/addons/addons/keys/input-keys.js",
+	"/addons/addons/spawn-sphere-on-space.js",
+	"/addons/addons/debug-event-logger.js"
 ]
