@@ -37,7 +37,7 @@ export class Engine {
 	async init() {
 		this.do();
 		// Charge la liste d'addons (si le fichier manque/échoue → noyau OK quand même)
-		await this.pm.loadFromManifest("/addons/addons.json");
+		await this.pm.loadFromManifest("/addons/addons/addons.json");
 		this.bus.emit("core:ready");
 	}
 
